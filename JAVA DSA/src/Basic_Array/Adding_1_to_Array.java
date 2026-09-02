@@ -6,7 +6,7 @@ import java.util.Vector;
 
 public class Adding_1_to_Array {
     public static Vector<Integer> AddOne(){
-        int [] arr = {5 , 8, 7,9, 9 , 9};
+        int [] arr = {5 , 8, 7, 9, 9 , 9};
         Vector<Integer> ans  = new Vector<>();
         int n = arr.length;
         int carry = 1;
@@ -26,6 +26,7 @@ public class Adding_1_to_Array {
 
     }
     static void main(String[] args) {
+
         System.out.println(AddOne());
     }
 }
